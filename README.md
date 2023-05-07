@@ -29,7 +29,7 @@ This bash script allows you to upload a file to Google Cloud Storage using a Ser
 
    The script will output the HTTP status code indicating the success or failure of the upload. If the upload is successful, you will see a "200" status code.
 
-##Troubleshooting
+## Troubleshooting
 If you encounter any issues during the execution, double-check the following:
 
 	. Ensure you have the correct path to your Service Account JSON key file
