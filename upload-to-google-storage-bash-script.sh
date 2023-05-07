@@ -41,7 +41,7 @@ echo "Sending..." $UPLOAD_ARCHIVE
 
 # Upload to Google Storage
 upload_to_google_storage() {
-  local bucket_name="fx30-logfile-uploads" # Replace with your bucket name
+  local bucket_name="your_bucket_name" # Replace with your bucket name
   local file_path="$1"
   local file_name="$(basename "$file_path")"
   local access_token="$2"
