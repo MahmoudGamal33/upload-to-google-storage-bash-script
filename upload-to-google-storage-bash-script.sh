@@ -62,11 +62,3 @@ if [ "$response_code" -eq 200 ]; then
 else
   echo "Upload failed with status code: $response_code"
 fi
-
-rc=$?
-if test "$rc" != "0"; then
-  echo "Send failed with return code: $rc"
-else
-  echo "OK"
-fi
-
