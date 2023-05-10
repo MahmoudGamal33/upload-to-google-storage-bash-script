@@ -18,16 +18,19 @@ This bash script allows you to upload a file to Google Cloud Storage using a Ser
    json_file="googlestorage_credentials_json_file.json"
    
 3. Replace the UPLOAD_ARCHIVE variable value with the path to the file you want to upload:
-   
+   ```bash
    UPLOAD_ARCHIVE="path_to_your_file_to_upload"
    
 4. Replace the bucket_name variable value with your Cloud Storage bucket name:
+   ```bash
    local bucket_name="your_bucket_name"
 
 5. Make the script executable:
+   ```bash
    chmod +x upload_to_google_storage.sh
 
 6. Run the script:
+   ```bash
    ./upload_to_google_storage.sh
 
    The script will output the HTTP status code indicating the success or failure of the upload. If the upload is successful, you will see a "200" status code.
